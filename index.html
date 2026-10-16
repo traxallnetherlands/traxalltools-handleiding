@@ -39,6 +39,7 @@
         padding: 18px 28px;
         background-color: white;
         border-radius: 10px;
+        box-sizing: border-box;
         box-shadow: 2px 2px 10px rgba(0,0,0,0.18);
     }
 
@@ -55,33 +56,24 @@
         margin: 0;
         color: #213153;
         font-size: 28px;
-    }
-
-    .tools-back-link {
-        position: absolute;
-        right: 28px;
-        color: #213153;
-        text-decoration: none;
-        font-size: 14px;
-        font-weight: bold;
-    }
-
-    .tools-back-link:hover {
-        text-decoration: underline;
+        text-align: center;
     }
 
     .content-panel {
         background: white;
         border-radius: 10px;
-        padding: 40px;
+        padding: 50px;
+        box-sizing: border-box;
         box-shadow: 2px 2px 10px rgba(0,0,0,0.18);
         text-align: center;
+        min-height: 600px;
     }
 
     .content-panel h2 {
         margin-top: 0;
         color: #213153;
         font-size: 36px;
+        margin-bottom: 20px;
     }
 
     .content-panel p {
@@ -108,10 +100,6 @@
 
     @media (max-width: 768px) {
 
-        .header-bar {
-            min-height: 120px;
-        }
-
         .header-bar img.logo {
             max-width: 130px;
         }
@@ -120,8 +108,16 @@
             font-size: 22px;
         }
 
-        .tools-back-link {
-            font-size: 12px;
+        .content-panel {
+            padding: 30px;
+        }
+
+        .content-panel h2 {
+            font-size: 28px;
+        }
+
+        .content-panel p {
+            font-size: 18px;
         }
 
         .bills-ugh {
@@ -130,22 +126,23 @@
     }
 </style>
 </head>
+
 <body>
 
 <div class="wrapper">
 
     <div class="header-bar">
         <img src="logo-traxall.png" alt="TraXall Logo" class="logo">
-
-        <h1>Handleidingen</h1>
+        <h1>TraXall Tools Handleidingen</h1>
+    </div>
 
     <div class="content-panel">
 
         <h2>UNDER CONSTRUCTION</h2>
 
         <p>
-            Hier komen binnenkort alle handleidingen te staan,<br>
-            nog even geduld!
+            Hier komen binnenkort alle handleidingen te staan.<br>
+            Nog even geduld!
         </p>
 
         <img src="troll-wheel.gif"
